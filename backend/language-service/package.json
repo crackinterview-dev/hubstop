@@ -1,0 +1,32 @@
+{
+  "name": "language-service",
+  "version": "1.0.0",
+  "description": "Language microservice for handling translations",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "i18next": "^21.8.0",
+    "i18next-fs-backend": "^1.1.2",
+    "i18next-http-middleware": "^3.6.0",
+    "joi": "^17.13.3",
+    "mongoose": "^8.6.2",
+    "sequelize": "^6.37.3",
+    "winston": "^3.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "author": "Hanan Fadel",
+  "license": "MIT"
+}

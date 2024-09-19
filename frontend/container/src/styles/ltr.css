@@ -1,0 +1,5 @@
+/* src/styles/ltr.css */
+body {
+  direction: ltr;
+  text-align: left;
+}
